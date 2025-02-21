@@ -1,0 +1,21 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: 'Menu' ## setting up a drop down menu
+      menu:
+        - text: 'Option 1'
+          href: text.html
+        - text: 'Option 2'
+          href: text2.html
+    - text: "About"
+      href: about.html
+    - icon: fa-github fa-lg
+      href: http://github.com/
+output: 
+  html_document:
+    theme: united
+    toc: yes
+    toc_float:
+      collapsed: false

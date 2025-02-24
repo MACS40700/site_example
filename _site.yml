@@ -1,13 +1,13 @@
-name: "Yay internet!"
+name: "Student, Computational Social Scientist"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: 'Menu' ## setting up a drop down menu
+    - text: 'Projects' ## setting up a drop down menu
       menu:
-        - text: 'Option 1'
+        - text: 'Plotly'
           href: text.html
-        - text: 'Option 2'
+        - text: 'Shiny/Tableau'
           href: text2.html
     - text: "About"
       href: about.html
